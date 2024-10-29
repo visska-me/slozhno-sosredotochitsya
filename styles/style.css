@@ -1,7 +1,5 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+
   background-color: var(--bg-color, #000028);
   background-image: var(--bg-image);
   background-position: center;
@@ -15,7 +13,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 192px 1fr;
   height: 100vh;
-  block-size: 668px;
+  min-height: 668px;
   margin-block-end: 40px;
 }
 
@@ -126,11 +124,11 @@
   font-family: var(--font-family);
   color: var(--text-contrast-color);
   font-weight: var(--font-weight-bold);
+  font-size: 18px;
   line-height: 130%;
   background-color: var(--bg-accent-color);
 	margin: var(--spacing-small);
 	margin-block-start: 8.234vh;
-  background: var(--bg-accent-color);
 }
 
 .rec {
@@ -182,7 +180,7 @@
 	outline: 1px solid var(--text-color);
 }
 
-.content__section {
+.content-section {
 	display: grid;
 	grid-template-columns: 1fr;
 	margin-block-end: 50px;
@@ -201,7 +199,8 @@
 	margin-block-end: var(--spacing-regular);
 }
 
-.card-title {
+.card-title,
+.gallery-title {
   color: var(--text-contrast-color);
   background-color: var(--bg-accent-color);
   font-family: var(--font-family);
@@ -213,6 +212,7 @@
 
 .card-title-regular {
 	font-weight: var(--font-weight-regular);
+  margin-block-start: var(--spacing-regular);
 }
 
 .card-text {
@@ -369,7 +369,7 @@
 		grid-row-end: 4;
 	}
 
-	.footer__text {
+	.footer-text {
 		font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 	}
 
