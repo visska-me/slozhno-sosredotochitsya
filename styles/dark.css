@@ -10,19 +10,11 @@
   --bg-image: url("../images/cover-image-dark.png");
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
+  --title-accent-color: #FF0070;
   --text-title-color: #DB00FF;
   --text-contrast-color: #000028;
   --button-border-hover: rgba(255, 0, 112, 0.4);
-
-  --font-family: "IBM Plex mono", monospace;
-  --font-size: 18px;
-  --font-weight-bold: 700;
-  --font-weight-regular: 400;
-
-  --spacing-small: 10px;
-  --spacing-regular: 20px;
-  --gap-small: var(--spacing-small);
-  --gap-regular: var(--spacing-regular);
+  --opacity: 1;
 } 
 
 

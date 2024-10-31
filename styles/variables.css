@@ -11,6 +11,7 @@
   --text-title-color: #DB00FF;
   --text-contrast-color: #000028;
   --button-border-hover: rgba(255, 0, 112, 0.4);
+  --opacity: 1;
 
   --font-family: "IBM Plex mono", monospace;
   --font-size: 18px;

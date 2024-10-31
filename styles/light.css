@@ -14,17 +14,24 @@
   --bg-image: url("../images/cover-image-light.png");
   --text-color: #353430;
   --accent-color: #353430;
+  --title-accent-color: #FF0070;
   --text-title-color: #ffc2e6;
   --text-contrast-color: #353430;
   --button-border-hover: rgba(50, 49, 45, 0.4);
+  --opacity: 0;
+}
 
-  --font-family: "IBM Plex mono", monospace;
-  --font-size: 18px;
-  --font-weight-bold: 700;
-  --font-weight-regular: 400;
-
-  --spacing-small: 10px;
-  --spacing-regular: 20px;
-  --gap-small: var(--spacing-small);
-  --gap-regular: var(--spacing-regular);
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff1f7;
+    --bg-accent-color: #ff8dcb;
+    --bg-image: url("../images/cover-image-light.png");
+    --text-color: #353430;
+    --accent-color: #353430;
+    --title-accent-color: #FF0070;
+    --text-title-color: #ffc2e6;
+    --text-contrast-color: #353430;
+    --button-border-hover: rgba(50, 49, 45, 0.4);
+    --opacity: 0;
+  }
 }
