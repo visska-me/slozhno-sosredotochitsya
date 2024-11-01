@@ -14,7 +14,8 @@
   --bg-image: url("../images/cover-image-light.png");
   --text-color: #353430;
   --accent-color: #353430;
-  --title-accent-color: #FF0070;
+  --title-accent-color: #ff8dcb;
+  --title-accent-color-desctop: #ff0070;
   --text-title-color: #ffc2e6;
   --text-contrast-color: #353430;
   --button-border-hover: rgba(50, 49, 45, 0.4);
@@ -28,8 +29,9 @@
     --bg-image: url("../images/cover-image-light.png");
     --text-color: #353430;
     --accent-color: #353430;
-    --title-accent-color: #FF0070;
+    --title-accent-color: #ff8dcb;
     --text-title-color: #ffc2e6;
+    --title-accent-color-desctop: #ff0070;
     --text-contrast-color: #353430;
     --button-border-hover: rgba(50, 49, 45, 0.4);
     --opacity: 0;
